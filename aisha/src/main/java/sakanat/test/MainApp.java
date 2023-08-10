@@ -193,9 +193,9 @@ private static void adminReviewAdvertisements() {
 
     List<HousingAdvertisement> advertisements = new ArrayList<>();
 
-    // Add sample housing advertisements (replace with your actual data)
-    advertisements.add(new HousingAdvertisement(1, "Apartment 1", "itehad Street, Nablus", "Furnished, Wi-Fi, seventh floor", "150", "+970-597 373 534"));
-    advertisements.add(new HousingAdvertisement(2, "Villa 2", "Nasaria", "Unfurnished, Parking, pool", "120", "+970-568 468 298"));
+    advertisements.add(new HousingAdvertisement(1, "Villa 2", "Ramallah", "Unfurnished, Parking, pool", "120", "+970-568 875 298"));
+
+    advertisements.add(new HousingAdvertisement(2, "Apartment 11", " Nablus", " wifi, seventh floor", "150", "+970-597 373 534"));
 
     if (advertisements.isEmpty()) {
         System.out.println("No housing advertisements found.");
@@ -239,14 +239,27 @@ private static void adminViewReservations() {
     
     
     
-    Reservation reservation1 = new Reservation(1, "Alex Smith", "alexsmith@gmail.com", "Apartment 3", "2023-08-15", 7);
+    
+
+    
+
+    
+
+    
+    
+    
+    Reservation reservation1 = new Reservation(1, "Alex Smith", "alexsmith@gmail.com", "Apartment 1", "2023-08-15", 7);
     Reservation reservation2 = new Reservation(2, "Roz Malter", "rozmalter@gmail.com", "Villa 2", "2023-09-01", 10);
     Reservation reservation3 = new Reservation(3, "Rachel Green", "rachrach@gmail.com", "Luxury Apartment", "2023-08-09",30);
+    Reservation reservation4 = new Reservation(4, "joey Tribbiani", "howyoudoin@gmail.com", "Cozy Studio", "2023-08-01",21);
+    Reservation reservation5 = new Reservation(5, "Rachel Green", "rachrach@gmail.com", "Luxury Apartment", "2023-07-14",3);
 
 
     reservations.add(reservation1);
-    reservations.add(reservation2);
-
+    reservations.add(reservation2); 
+    reservations.add(reservation3);
+    reservations.add(reservation4);
+    reservations.add(reservation5);
 
     
     
